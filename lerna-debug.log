@@ -11,7 +11,7 @@
 0 silly argv }
 1 notice cli v3.22.1
 2 verbose rootPath /home/gabriel/Projects/lerna-example
-3 info current version 1.0.4
+3 info current version 1.1.0
 4 silly isAnythingCommitted
 5 verbose isAnythingCommitted 1
 6 silly currentBranch
@@ -21,8 +21,8 @@
 10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 11 silly hasTags
 12 verbose hasTags true
-13 silly git-describe.sync "v1.0.4-4-gf3884a6" => {"lastTagName":"v1.0.4","lastVersion":"v1.0.4","refCount":"4","sha":"f3884a6","isDirty":false}
-14 info Looking for changed packages since v1.0.4
+13 silly git-describe.sync "v1.1.0-3-gaa4a361" => {"lastTagName":"v1.1.0","lastVersion":"v1.1.0","refCount":"3","sha":"aa4a361","isDirty":false}
+14 info Looking for changed packages since v1.1.0
 15 silly checking diff packages/common
 16 silly found diff in packages/common/index.js
 17 verbose filtered diff [ 'packages/common/index.js' ]
@@ -30,8 +30,8 @@
 19 silly no diff found in @lerna-example/server
 20 verbose updated @lerna-example/common
 21 verbose updated @lerna-example/server
-22 verbose git-describe undefined => "v1.0.4-4-gf3884a6"
-23 silly git-describe parsed => {"lastTagName":"v1.0.4","lastVersion":"v1.0.4","refCount":"4","sha":"f3884a6","isDirty":false}
+22 verbose git-describe undefined => "v1.1.0-3-gaa4a361"
+23 silly git-describe parsed => {"lastTagName":"v1.1.0","lastVersion":"v1.1.0","refCount":"3","sha":"aa4a361","isDirty":false}
 24 silly fixed for @lerna-example/common at /home/gabriel/Projects/lerna-example/packages/common
 25 verbose getChangelogConfig using preset "conventional-changelog-angular"
 26 silly npa Result {
@@ -51,24 +51,24 @@
 26 silly npa }
 27 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 28 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-29 verbose fixed increment 1.0.4 by minor
+29 verbose fixed increment 1.1.0 by minor
 30 silly fixed for @lerna-example/server at /home/gabriel/Projects/lerna-example/packages/server
-31 verbose fixed increment 1.0.4 by patch
+31 verbose fixed increment 1.1.0 by patch
 32 info auto-confirmed
 33 info execute Creating releases...
 34 silly lifecycle No script for "preversion" in "lerna-example", continuing
 35 silly lifecycle No script for "preversion" in "@lerna-example/common", continuing
 36 silly lifecycle No script for "version" in "@lerna-example/common", continuing
 37 silly fixed for @lerna-example/common at /home/gabriel/Projects/lerna-example/packages/common
-38 silly fixed writing new entry: "# [1.1.0](https://github.com/gsgabrielsilvas/lerna-example/compare/v1.0.4...v1.1.0) (2020-08-03)\n\n\n### Features\n\n* common test ([5ca9f10](https://github.com/gsgabrielsilvas/lerna-example/commit/5ca9f10d674113669ad6f69a6affe1dce2c8ed39))\n\n\n\n"
+38 silly fixed writing new entry: "# [1.2.0](https://github.com/gsgabrielsilvas/lerna-example/compare/v1.1.0...v1.2.0) (2020-08-03)\n\n\n### Features\n\n* common test ([2454d8b](https://github.com/gsgabrielsilvas/lerna-example/commit/2454d8beb84b46c2524ce58ea4943b429f27e90e))\n\n\n\n"
 39 verbose fixed wrote /home/gabriel/Projects/lerna-example/packages/common/CHANGELOG.md
 40 silly lifecycle No script for "preversion" in "@lerna-example/server", continuing
 41 silly lifecycle No script for "version" in "@lerna-example/server", continuing
 42 silly fixed for @lerna-example/server at /home/gabriel/Projects/lerna-example/packages/server
-43 silly fixed writing new entry: "# [1.1.0](https://github.com/gsgabrielsilvas/lerna-example/compare/v1.0.4...v1.1.0) (2020-08-03)\n\n**Note:** Version bump only for package @lerna-example/server\n\n\n\n"
+43 silly fixed writing new entry: "# [1.2.0](https://github.com/gsgabrielsilvas/lerna-example/compare/v1.1.0...v1.2.0) (2020-08-03)\n\n**Note:** Version bump only for package @lerna-example/server\n\n\n\n"
 44 verbose fixed wrote /home/gabriel/Projects/lerna-example/packages/server/CHANGELOG.md
 45 silly root for lerna-example at /home/gabriel/Projects/lerna-example
-46 silly root writing new entry: "# [1.1.0](https://github.com/gsgabrielsilvas/lerna-example/compare/v1.0.4...v1.1.0) (2020-08-03)\n\n\n### Features\n\n* common test ([5ca9f10](https://github.com/gsgabrielsilvas/lerna-example/commit/5ca9f10d674113669ad6f69a6affe1dce2c8ed39))\n* test ([12b3f9a](https://github.com/gsgabrielsilvas/lerna-example/commit/12b3f9ad765a05c5d3cc6314289c0687273296d1))\n\n\n\n"
+46 silly root writing new entry: "# [1.2.0](https://github.com/gsgabrielsilvas/lerna-example/compare/v1.1.0...v1.2.0) (2020-08-03)\n\n\n### Features\n\n* common test ([2454d8b](https://github.com/gsgabrielsilvas/lerna-example/commit/2454d8beb84b46c2524ce58ea4943b429f27e90e))\n\n\n\n"
 47 verbose root wrote /home/gabriel/Projects/lerna-example/CHANGELOG.md
 48 silly lifecycle No script for "version" in "lerna-example", continuing
 49 silly gitAdd [
@@ -79,10 +79,10 @@
 49 silly gitAdd   'CHANGELOG.md',
 49 silly gitAdd   'lerna.json'
 49 silly gitAdd ]
-50 silly gitCommit v1.1.0
-51 verbose git [ 'commit', '-m', 'v1.1.0' ]
-52 silly gitTag v1.1.0
-53 verbose git [ 'tag', 'v1.1.0', '-m', 'v1.1.0' ]
+50 silly gitCommit v1.2.0
+51 verbose git [ 'commit', '-m', 'v1.2.0' ]
+52 silly gitTag v1.2.0
+53 verbose git [ 'tag', 'v1.2.0', '-m', 'v1.2.0' ]
 54 silly lifecycle No script for "postversion" in "@lerna-example/common", continuing
 55 silly lifecycle No script for "postversion" in "@lerna-example/server", continuing
 56 silly lifecycle No script for "postversion" in "lerna-example", continuing
