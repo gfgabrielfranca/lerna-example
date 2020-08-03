@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "test": "lerna run test",
-    "new-version": "lerna version --conventional-commits --yes"
+    "new-version": "lerna version --conventional-commits --create-release --yes"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
