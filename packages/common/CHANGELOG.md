@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/gsgabrielsilvas/lerna-example/compare/v1.2.6...v1.3.0) (2020-08-03)
+
+
+### Features
+
+* more ([4188f34](https://github.com/gsgabrielsilvas/lerna-example/commit/4188f348797bf4d819cbe29083e0074e5e9bd541))
+
+
+
+
+
 ## [1.2.6](https://github.com/gsgabrielsilvas/lerna-example/compare/v1.2.5...v1.2.6) (2020-08-03)
 
 **Note:** Version bump only for package @lerna-example/common
