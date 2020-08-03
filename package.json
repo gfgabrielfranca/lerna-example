@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "test": "lerna run test",
-    "new-version": "dotenv cross-var lerna version --conventional-commits --create-release github --yes"
+    "new-version": "dotenv -- cross-var lerna version --conventional-commits --create-release github --yes"
   },
   "devDependencies": {
     "cross-var": "^1.1.0",
